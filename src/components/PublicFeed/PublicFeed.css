@@ -1,0 +1,69 @@
+.public-feed {
+  padding: 30px 20px;
+  margin-top: 20px;
+}
+
+.public-feed h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.feed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* CARD SIMPLES */
+.feed-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 16px 18px;
+  border: 1px solid #eee;
+  transition: 0.2s ease;
+}
+
+.feed-card:hover {
+  background: #fafafa;
+  border-color: #ff3d3d33;
+}
+
+/* CABEÇALHO COM AVATAR */
+.feed-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+/* AVATAR SIMPLES */
+.avatar {
+  width: 36px;
+  height: 36px;
+  background: #ff3d3d;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* NOME DO USUÁRIO */
+.feed-header h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+  color: #222;
+}
+
+/* TEXTO */
+.feed-text {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+  margin: 0;
+}

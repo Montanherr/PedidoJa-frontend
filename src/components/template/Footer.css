@@ -1,0 +1,11 @@
+.footer {
+  background: linear-gradient(135deg, #ff4e50, #ff6a00); /* mesmo gradiente do Header e Hero */
+  color: #fff;
+  text-align: center;
+  padding: 1.4rem 0;
+  margin-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 -4px 14px rgba(255, 80, 80, 0.25); /* mesma vibe do header */
+  font-size: 0.95rem;
+  letter-spacing: 0.4px;
+}

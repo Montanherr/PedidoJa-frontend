@@ -1,0 +1,57 @@
+.company-section {
+  padding: 20px;
+  max-width: 1100px;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.company-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.company-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 18px rgba(0,0,0,0.15);
+}
+
+.company-logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.company-info h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.company-info p {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}

@@ -1,0 +1,48 @@
+.category-card {
+  width: 320px;
+  height: 170px;
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.category-info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  z-index: 2;
+}
+
+.category-card h2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.category-btn {
+  background: rgba(255, 255, 255, 0.25);
+  border: none;
+  padding: 8px 18px;
+  border-radius: 30px;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  backdrop-filter: blur(5px);
+}
+
+.category-image {
+  width: 140px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  z-index: 1;
+}

@@ -1,13 +1,149 @@
-body {
+/* ----------------------- */
+/* RESET BÁSICO */
+/* ----------------------- */
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  background-color: #fff7f2; /* tom quente suave */
+  color: #2a2a2a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+/* ----------------------- */
+/* CONTAINERS */
+/* ----------------------- */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* ----------------------- */
+/* TÍTULOS */
+/* ----------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #ff3d3d; /* vermelho apetitoso */
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* ----------------------- */
+/* LINKS */
+/* ----------------------- */
+
+a {
+  color: #ff3d3d;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+a:hover {
+  color: #d62828; /* vermelho mais escuro */
+}
+
+/* ----------------------- */
+/* BOTÕES */
+/* ----------------------- */
+
+button {
+  padding: 0.7rem 1.4rem;
+  background-color: #ff3d3d;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.1s;
+}
+
+button:hover {
+  background-color: #d62828;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* ----------------------- */
+/* FORMULÁRIOS */
+/* ----------------------- */
+
+input, select, textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #ffffff;
+  transition: border 0.2s;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #ff3d3d;
+  outline: none;
+}
+
+/* ----------------------- */
+/* CARDS */
+/* ----------------------- */
+
+.card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 10px rgba(255, 61, 61, 0.12);
+  border: 1px solid #ffe5e5;
+  transition: 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(255, 61, 61, 0.18);
+}
+
+/* ----------------------- */
+/* BARRAS / SEÇÕES */
+/* ----------------------- */
+
+.section-title {
+  font-size: 1.6rem;
+  color: #2a2a2a;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #ff3d3d;
+}
+
+/* ----------------------- */
+/* RESPONSIVIDADE */
+/* ----------------------- */
+
+@media (max-width: 768px) {
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.5rem; }
+  .container { padding: 1rem; }
 }

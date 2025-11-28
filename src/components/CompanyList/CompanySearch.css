@@ -1,0 +1,81 @@
+.company-search-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 14px 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 8px;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-icon {
+  color: red;
+}
+
+.search-box button {
+  background: #e60000;
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+.loading {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.results {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.company-card {
+  width: 240px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 8px;
+  text-align: left;
+}
+
+.company-card h3 {
+  margin: 0 0 6px;
+}
+
+.category {
+  display: inline-block;
+  margin-top: 6px;
+  background: #f33;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 13px;
+}
